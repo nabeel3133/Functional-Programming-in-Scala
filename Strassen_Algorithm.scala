@@ -37,6 +37,7 @@ object Strassen_Algorithm {
         print("\nEnter value for  element "+(i+1)+" x "+(j+1)+": ")
         matrix2(i)(j) = scala.io.StdIn.readInt();
       }
+      
     }
 
     if (rows==2)
@@ -105,7 +106,6 @@ object Strassen_Algorithm {
             resultantMatrix(1)(0) = P3 + P4
             resultantMatrix(1)(1) = P1 + P5 - P3 - P7
           }
-
 
          else
          {
